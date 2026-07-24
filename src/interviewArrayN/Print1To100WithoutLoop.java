@@ -1,4 +1,4 @@
-package interview.Java.Programs;
+package interviewArrayN;
 
 public class Print1To100WithoutLoop {
 

@@ -6,9 +6,9 @@ public class OccurenceOfString {
 		String st = "This is my java code i am Super Happy i"; 
 		int count = 0; 
 		
-	char str[]=	st.toCharArray(); 
+	//char str[]=	st.toCharArray(); 
 	for(int i=0; i<=st.length()-1; i++) {
-		if(str[i]=='i') {
+		if(st.charAt(i)=='i') {
 			count++;
 		}
 	}

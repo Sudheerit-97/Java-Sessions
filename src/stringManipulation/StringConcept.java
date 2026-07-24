@@ -73,7 +73,7 @@ public class StringConcept {
         		 String OR= t2.replaceAll("\\D+", "");
         		 System.out.println(OR);
         		 
-        		 String Spe = "Hello!! this is my value: 123456;";
+        		 String Spe = "  Hello!! this is my value: 123456;  ";
         		 String NSP = Spe.replaceAll("[^a-zA-Z0-9]","");
         		 System.out.println(NSP);
         		
