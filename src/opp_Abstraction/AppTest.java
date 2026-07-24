@@ -3,7 +3,7 @@ package opp_Abstraction;
 public class AppTest {
 
 	public static void main(String[] args) {
-		LoginPage lp = new LoginPage (10);  
+		LoginPage lp = new LoginPage ();  
 		lp.tittle();
 		lp.url();
 		lp.pageLodingTime();
@@ -14,11 +14,11 @@ public class AppTest {
 	    System.out.println("____________");
 	    // top casting
 	    // Child class object can be referred by parent abs class of variable 
-	    Page pg = new LoginPage (); 
-	     pg.tittle();
-	     pg.url();
-	     pg.pageLodingTime();
-	     pg.Footers(); 
+//	    Page pg = new LoginPage (); 
+//	     pg.tittle();
+//	     pg.url();
+//	     pg.pageLodingTime();
+//	     pg.Footers(); 
 		
 	}
 
